@@ -1,0 +1,39 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+/* body, body * {
+    border: 1px solid red;
+} */
+
+h1{
+    font-size: 4rem;
+}
+
+.heading {
+    background-color: rgb(245, 179, 66);
+    font-family: sans-serif;
+    text-align: center;
+}
+
+img {
+    display: block;
+    width: 600px;
+    margin: auto;
+}
+
+ul {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    display: inline;
+    border: 1px dashed black;
+    padding: 20px;
+}
